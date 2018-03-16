@@ -54,3 +54,11 @@ $ docker run -p [port1]:[port2] -it [REPOSITORY] bash
 ※　bashが起動できなかった場合は、/bin/bashを/usr/bin/にコピーすることでエラーが解消した。  
 
 
+## httpでのデータの受け渡し処理の参考スクリプト  
+以下のコードは(こちら)[https://github.com/GINK03/docker-compose-templates] を参考にしています。  
+
+**server.py**  
+サーバー側(コンテナ導入側)でのデータ受け渡し処理を記述したスクリプト  
+
+**client.py**  
+クライアント側(コンテナの機能を利用する側)でのデータ受け渡し処理を記述したスクリプト  
